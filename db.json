@@ -1,0 +1,143 @@
+{
+  "figures": [
+    {
+      "id": "1",
+      "name": "Malenia, Blade of Miquella 1/7 Scale Figure",
+      "gameSeries": "Elden Ring",
+      "category": "Statue",
+      "price": 10500000,
+      "image": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=600&auto=format&fit=crop&q=80",
+      "description": "Mô hình cao cấp tái hiện hoàn hảo Malenia - Blade of Miquella từ siêu phẩm Elden Ring với chi tiết cánh bướm Scarlet Rot rực rỡ và kiếm mạ vàng sắc sảo.",
+      "manufacturer": "PureArts",
+      "scale": "1/7",
+      "height": "38 cm",
+      "stock": 5,
+      "rating": 4.9,
+      "isDeleted": false
+    },
+    {
+      "id": "2",
+      "name": "Raiden Shogun - Plane of Euthymia 1/7",
+      "gameSeries": "Genshin Impact",
+      "category": "Scale Figure",
+      "price": 4800000,
+      "image": "https://images.unsplash.com/photo-1563089145-599997674d42?w=600&auto=format&fit=crop&q=80",
+      "description": "Lôi Thần Raiden Shogun kiêu hãnh giương Musou no Hitotachi với hiệu ứng sấm sét phát sáng sống động.",
+      "manufacturer": "miHoYo Official",
+      "scale": "1/7",
+      "height": "27 cm",
+      "stock": 12,
+      "rating": 4.8,
+      "isDeleted": false
+    },
+    {
+      "id": "3",
+      "name": "Ahri K/DA All Out Special Edition",
+      "gameSeries": "League of Legends",
+      "category": "Statue",
+      "price": 6200000,
+      "image": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?w=600&auto=format&fit=crop&q=80",
+      "description": "Cửu Vĩ Yêu Hồ Ahri trong trang phục K/DA All Out quyến rũ với hiệu ứng 9 đuôi pha lê rực rỡ sắc màu.",
+      "manufacturer": "Apex Innovation",
+      "scale": "1/7",
+      "height": "29 cm",
+      "stock": 8,
+      "rating": 4.9,
+      "isDeleted": false
+    },
+    {
+      "id": "4",
+      "name": "2B (YoRHa No. 2 Type B) DX Version",
+      "gameSeries": "NieR:Automata",
+      "category": "Scale Figure",
+      "price": 5500000,
+      "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=600&auto=format&fit=crop&q=80",
+      "description": "Phiên bản DX đầy đủ phụ kiện gồm mặt bỏ băng che mắt, váy phụ và Pod 042 đi kèm. Chi tiết sơn cực kỳ tỉ mỉ.",
+      "manufacturer": "Square Enix / Flare",
+      "scale": "Non-scale",
+      "height": "28 cm",
+      "stock": 15,
+      "rating": 4.7,
+      "isDeleted": false
+    },
+    {
+      "id": "5",
+      "name": "Cloud Strife & Hardy-Daytona Play Arts Kai",
+      "gameSeries": "Final Fantasy VII",
+      "category": "Action Figure",
+      "price": 8900000,
+      "image": "https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?w=600&auto=format&fit=crop&q=80",
+      "description": "Bộ mô hình khớp chuyển động Cloud Strife kèm siêu xe Hardy-Daytona thiết kế chuẩn theo Final Fantasy VII Remake.",
+      "manufacturer": "Square Enix",
+      "scale": "Action Figure",
+      "height": "26 cm",
+      "stock": 4,
+      "rating": 5.0,
+      "isDeleted": false
+    },
+    {
+      "id": "6",
+      "name": "Nendoroid Jinx #1600",
+      "gameSeries": "League of Legends",
+      "category": "Nendoroid",
+      "price": 1350000,
+      "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+      "description": "Nendoroid Jinx ngổ ngáo đi kèm súng Fishbones, Pow-Pow và hiệu ứng đạn nổ sinh động.",
+      "manufacturer": "Good Smile Company",
+      "scale": "Nendoroid",
+      "height": "10 cm",
+      "stock": 20,
+      "rating": 4.6,
+      "isDeleted": false
+    },
+    {
+      "id": "7",
+      "name": "Nendoroid Zhongli #2100",
+      "gameSeries": "Genshin Impact",
+      "category": "Nendoroid",
+      "price": 1450000,
+      "image": "https://images.unsplash.com/photo-1578632767115-351597cf2477?w=600&auto=format&fit=crop&q=80",
+      "description": "Nham Thần Zhongli phong thái lịch lãm, đi kèm Thương Nham Thần, ly trà và khiên Nham.",
+      "manufacturer": "Good Smile Company",
+      "scale": "Nendoroid",
+      "height": "10 cm",
+      "stock": 18,
+      "rating": 4.9,
+      "isDeleted": false
+    },
+    {
+      "id": "8",
+      "name": "Figma Johnny Silverhand",
+      "gameSeries": "Cyberpunk 2077",
+      "category": "Figma",
+      "price": 2200000,
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=600&auto=format&fit=crop&q=80",
+      "description": "Mô hình Figma khớp cử động Johnny Silverhand mô phỏng nam tài tử Keanu Reeves với đàn guitar điện và khẩu Malorian 3516.",
+      "manufacturer": "Max Factory",
+      "scale": "Figma",
+      "height": "16 cm",
+      "stock": 9,
+      "rating": 4.5,
+      "isDeleted": false
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "123",
+      "role": "admin",
+      "displayName": "Quản Trị Viên",
+      "email": "admin@figurehub.vn"
+    },
+    {
+      "id": "2",
+      "username": "customer",
+      "password": "123",
+      "role": "customer",
+      "displayName": "Khách Hàng Demo",
+      "email": "customer@figurehub.vn"
+    }
+  ],
+  "orders": []
+}

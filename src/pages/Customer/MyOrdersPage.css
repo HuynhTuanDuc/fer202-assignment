@@ -1,0 +1,185 @@
+/* MyOrdersPage.css */
+
+.my-orders-page {
+  padding: 2rem 0 3rem;
+}
+
+.my-orders-title {
+  font-size: 1.6rem;
+  color: #ffffff;
+  margin-bottom: 0.25rem;
+}
+
+.my-orders-subtitle {
+  color: #6c757d;
+  font-size: 0.88rem;
+}
+
+/* Empty state */
+.my-orders-empty {
+  background-color: #1a1a2e;
+  border: 1px dashed #343a40;
+  border-radius: 1rem;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.my-orders-empty-icon {
+  font-size: 3.5rem;
+  color: #343a40;
+  margin-bottom: 1rem;
+}
+
+/* Order card */
+.order-card {
+  background-color: #1a1a2e;
+  border: 1px solid #2d2d44;
+  border-radius: 0.875rem;
+  overflow: hidden;
+  margin-bottom: 1.25rem;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.order-card:hover {
+  border-color: #0d6efd55;
+  box-shadow: 0 4px 20px rgba(13, 110, 253, 0.12);
+}
+
+.order-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #12121e;
+  border-bottom: 1px solid #2d2d44;
+  padding: 0.875rem 1.25rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.order-id {
+  font-weight: 700;
+  color: #0d6efd;
+  font-size: 0.95rem;
+}
+
+.order-date {
+  font-size: 0.8rem;
+  color: #6c757d;
+}
+
+.order-card-body {
+  padding: 1rem 1.25rem;
+}
+
+.order-items-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.order-item-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.order-item-img {
+  width: 46px;
+  height: 46px;
+  border-radius: 0.5rem;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.order-item-name {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #e0e0e0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 280px;
+}
+
+.order-item-meta {
+  font-size: 0.78rem;
+  color: #6c757d;
+}
+
+.order-item-subtotal {
+  margin-left: auto;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #0d6efd;
+  white-space: nowrap;
+}
+
+.order-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #2d2d44;
+  padding: 0.875rem 1.25rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.order-total-label {
+  font-size: 0.85rem;
+  color: #6c757d;
+}
+
+.order-total-value {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #0d6efd;
+}
+
+/* Status badges */
+.order-status {
+  font-size: 0.78rem;
+  padding: 0.3rem 0.65rem;
+  border-radius: 2rem;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+.status-pending {
+  background-color: rgba(255, 193, 7, 0.15);
+  color: #ffc107;
+  border: 1px solid rgba(255, 193, 7, 0.4);
+}
+
+.status-processing {
+  background-color: rgba(13, 202, 240, 0.15);
+  color: #0dcaf0;
+  border: 1px solid rgba(13, 202, 240, 0.4);
+}
+
+.status-delivered {
+  background-color: rgba(25, 135, 84, 0.15);
+  color: #198754;
+  border: 1px solid rgba(25, 135, 84, 0.4);
+}
+
+.status-cancelled {
+  background-color: rgba(220, 53, 69, 0.15);
+  color: #dc3545;
+  border: 1px solid rgba(220, 53, 69, 0.4);
+}
+
+/* Loading skeleton */
+.my-orders-skeleton {
+  background: linear-gradient(90deg, #1a1a2e 25%, #22223a 50%, #1a1a2e 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  border-radius: 0.875rem;
+  height: 140px;
+  margin-bottom: 1rem;
+}
+
+@keyframes shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
